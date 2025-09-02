@@ -7,7 +7,9 @@ function RootLayout({ children }) {
     <html lang="en">
       <body>
         {children}
-
+        <footer>
+          &copy; {new Date().getFullYear()} Pritam. All rights reserved.
+        </footer>
       </body>
     </html>
   );
